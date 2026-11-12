@@ -1,0 +1,13 @@
+# 采集数据与构建产物不入库（保留 .gitkeep 占位）
+data/*
+!data/.gitkeep
+*.bag
+
+# ROS2 构建产物
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python
+__pycache__/
+*.pyc
